@@ -204,11 +204,33 @@ h2{
     border-radius: 20px;
     min-height: 600px;
     width: 45%;
-    background-image: url(../img/iphone.svg);
     background-position-y: 10rem;
     background-position-x: 50% ;
     background-size: 90%;
     background-repeat: no-repeat;
+    padding-top:2rem ;
+    justify-content: start;
+    align-items: start center;
+    flex-flow: column;
+}
+.iphone{
+    background-image: url(../img/iphone.svg);
+}
+.android{
+    background-image: url(../img/android.svg);
+}
+.dload-card span{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.dload-card{
+    padding-top: 100px;
+}
+
+.button-card{
+    background-color: var(--bg-footer);
+    color: var(--primary-color);
+    font-size: 1.3rem;
 }
 /* footer */
 footer{
