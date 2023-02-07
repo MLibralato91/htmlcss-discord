@@ -54,6 +54,11 @@ header{
     background-color: var(--bg-header);
     font-size: 1.2rem;
 }
+/* header page download */
+.dl-head{
+    background-color: var(--bg-footer);
+}
+
 .nav-bar{
     width: 55%;
 }
