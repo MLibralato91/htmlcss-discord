@@ -13,7 +13,7 @@
     --dark-text : #000000;
     --bg-header : #2c5de9;
     --light-bg : #7689d9;
-}
+ }
 
 .container{
     max-width: 1200px;
@@ -59,6 +59,22 @@ header{
     background-color: var(--bg-footer);
 }
 
+.dl-text{
+    color: var(--primary-color);
+    width: 50%;
+
+}
+.dl-img{
+    width: 50%;
+}
+
+.dl-flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    align-items: center;
+}
+
 .nav-bar{
     width: 55%;
 }
@@ -87,7 +103,7 @@ a{
     align-items: center;
     flex-direction: column;
     justify-content:center;
-    min-height: 800px;
+    min-height: 600px;
 }
 .black {
     background-color: var(--bg-footer);
@@ -98,7 +114,7 @@ a{
     padding: 15px 0;
 }
 
-.jumbo-section .container{
+.jumbo-section, .container, .dl-head{
     padding-top: 10px;
 }
 
