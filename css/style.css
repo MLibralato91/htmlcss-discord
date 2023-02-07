@@ -55,9 +55,11 @@ header{
 }
 a{
     color: var(--primary-color);
-}
-a{
     text-decoration:none; 
+}
+
+.nav-bar a:hover { 
+    text-decoration: underline;
 }
 .center-flex{
     align-items: center;
@@ -172,6 +174,9 @@ ul{
     justify-content: space-around;
     border-bottom: 1px solid var(--light-bg);
 
+}
+.footer-top a:hover { 
+    text-decoration: underline;
 }
 
 .bot-footer{
