@@ -57,6 +57,7 @@ header{
 /* header page download */
 .dl-head{
     background-color: var(--bg-footer);
+    padding-bottom: 50px;
 }
 .dl-section{
     padding-top: 100px;
@@ -224,6 +225,11 @@ h2{
     font-weight: 700;
 }
 .dload-card{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.dload-card-right {
     padding-top: 100px;
 }
 
