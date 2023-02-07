@@ -81,7 +81,7 @@ header{
 }
 .dl-img{
     width: 50%;
-    
+        
 }
 
 .dl-flex{
@@ -197,6 +197,18 @@ h2{
     background-color:var(--primary-color);
     transform: scaleY(-1);
     
+}
+
+.album{
+    background-color: var(--bg-section);
+    border-radius: 20px;
+    min-height: 600px;
+    width: 45%;
+    background-image: url(../img/iphone.svg);
+    background-position-y: 10rem;
+    background-position-x: 50% ;
+    background-size: 90%;
+    background-repeat: no-repeat;
 }
 /* footer */
 footer{
