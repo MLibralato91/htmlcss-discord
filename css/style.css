@@ -193,10 +193,12 @@ h2{
 
 .wave{
     background-color:var(--primary-color);
+    width: 100%;
 }
 .wave-reverse{
     background-color:var(--primary-color);
     transform: scaleY(-1);
+    width: 100%;
     
 }
 
