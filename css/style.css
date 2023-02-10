@@ -109,7 +109,7 @@ a{
     align-items: center;
 }
 .jumbo-section{
-    background-image: url(/img/jumbo.png);
+    background-image: url(./img/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -176,7 +176,7 @@ h2{
     width: 100%;
 }
 .star{
-    background-image: url(/img/stars.svg);
+    background-image: url(./img/stars.svg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
